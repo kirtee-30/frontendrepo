@@ -1,0 +1,47 @@
+<!--registration page-->
+<html>
+<head>
+<title>ssi</title>
+</head>
+<body>
+<form action="#">
+
+<h3 align ="center" style="color:blue">STUDENT REGISTRATION FORM FOR THE SESSION 24-25</h3>
+
+<table align ="center" border=" " cellspacing="0" cellpadding="0" style="color:black; background-color:powderblue; width:80%; height:80%">
+
+<tr><th>Enter Name</th><td><input type="text" name="stu-name" required maxlength="30" pattern="[a-z A-Z]+" title="plese Enter Letter only"></td></tr>
+
+<tr><th>Enter password</th><td><input type="password" name="stu-pwd" required></td></tr>
+
+<tr><th>select Gender</th><td>Male<input type="radio" name="gen" value="Male" required>Female<input type="radio" name="gen" value="Female"></td></tr>
+
+<tr><th>Select hobbies</th><td>Cricket<input type="checkbox" name="hobbie" value="cricket">Football<input type="checkbox" name="hobbie" value="football"></td></tr>
+
+<tr><th>Select State</th><td>
+<select name="state" required>
+<option value=" ">-----</option>
+<option value="mp">Madhya Pradesh</option>
+<option>Up</option>
+</select></td></tr>
+
+<tr><th>Select skills</th><td><select name="skill" multiple required>
+<option>c</option>
+<option>cpp</option>
+<option>Html</option>
+<option>css</option>
+<option>java</option>
+</select></td></tr>
+
+<tr><th>Select File</th><td><input type="File" name="img" required></td></tr>
+
+<tr><th>Select files</th><td><input type="file" name="img" multiple required>
+</td></tr>
+
+<tr><td><input type="checkbox" style="margin-left:120px; required"></td><th style="margin-right:2px">I accept the term and condition</th></tr>
+
+<tr><td></td><td><input type="submit" value="register"><input type="reset"></td></tr>
+
+</table>
+
+</form></body></html>
